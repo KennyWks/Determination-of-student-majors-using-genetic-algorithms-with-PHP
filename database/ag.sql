@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Dec 03, 2019 at 08:16 AM
+-- Generation Time: Apr 12, 2020 at 09:02 AM
 -- Server version: 5.7.24
--- PHP Version: 7.3.1
+-- PHP Version: 7.2.14
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -76,12 +76,12 @@ CREATE TABLE IF NOT EXISTS `mhs` (
 --
 
 INSERT INTO `mhs` (`id`, `id_mhs`, `nama`, `nilai_un`, `nilai_test`, `jurusan`) VALUES
-(1, 240, 'KENNY PERULU', '80', '90', '2'),
-(2, 241, 'FELDI AMALO', '67', '90', '2'),
-(3, 242, 'JIWANTRIS SADUK', '70', '54', '1'),
-(4, 243, 'NOBERT TRISNO', '90', '54', '2'),
-(5, 244, 'YANDRES ASBANU', '55', '89', '1'),
-(6, 245, 'INA TANGKUYA', '88', '88', '1');
+(1, 240, 'Budi Kusuma', '80', '90', '2'),
+(2, 241, 'Rani Wijaya', '67', '90', '2'),
+(3, 242, 'Dedi Kurniawan', '70', '54', '1'),
+(4, 243, 'Rio Uno', '90', '54', '2'),
+(5, 244, 'Reni Rio', '55', '89', '1'),
+(6, 245, 'Ina Maria', '88', '88', '1');
 
 -- --------------------------------------------------------
 
